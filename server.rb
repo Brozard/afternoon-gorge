@@ -13,8 +13,6 @@ class Stock
   end
 end
 
-# stock = Stock.new
-
 get "/" do
   symbol = params['stock']
   stock = Stock.new(symbol)
